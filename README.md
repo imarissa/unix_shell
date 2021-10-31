@@ -1,7 +1,5 @@
 ### UNIX Shell
 ***
-#### Specification
-***
 The UNIX shell consists of a shell interface that accepts UNIX commands and executes each command in a separate process. It supports input and output redirection, as well as pipes as a 
 form of IPC between a pair of commands. Once the program is run, the prompt osh> will appear and the user can enter UNIX commands that will be performed on their system. Example commands 
 include 'ls', 'ls | wc', 'sleep 5 &', 'ls -al', a history command '!!', etc. A UNIX operating system is required, as the UNIX shell uses underlying UNIX program files to execute the command. 
